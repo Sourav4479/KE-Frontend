@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CookieService } from 'ngx-cookie-service';
  
 import { ToastrModule } from 'ngx-toastr';
 
@@ -36,9 +37,10 @@ import { ContentComponent } from './components/dashboard/content/content.compone
       timeOut: 600,
       positionClass: 'toast-bottom-center',
       preventDuplicates: true,
-    }) 
+    }),
+
   ],
-  providers: [AuthService,TokenService,{
+  providers: [AuthService,    CookieService,TokenService,{
     provide:HTTP_INTERCEPTORS,
     useClass: TokenInterceptor,
     multi: true
