@@ -1,0 +1,40 @@
+<header >
+    <div class="sticky-nav-wrapper">
+    <nav class="sticky-nav" ngStickyNav>
+      <div class="nav-wrapper">
+        <div class="row">
+          <div class="col s12">
+            <a data-target="sidenav-1" class="left sidenav-trigger hide-on-medium-and-up"><i
+                class="material-icons">menu</i></a>
+                <a target="_blank" (click)="create()" class=" brand-logo right bran" style="position:fixed; ">
+                    <div class="colo"> <i class="material-icons colo">add_alert</i>  Create Alert</div> 
+                </a>
+          
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  </header>
+  
+  <ul id="sidenav-1" class="sidenav sidenav-fixed">
+    <li>
+      <div class="user-view">
+        <div class="background">
+        </div>
+        <a href="#user"><img class="circle" src="https://materializecss.com/images/yuna.jpg"></a>
+        <a href="#name"><span class="white-text name">{{name}}</span></a>
+        <a href="#email"><span class="white-text email">{{""}}</span></a>
+      </div>
+    </li>
+    <li><a [routerLink]="['dashboard']"><i class="material-icons">home</i>Dashboard</a></li>
+  
+    <div class="footers">
+      <li><a (click)="logout()"><i class="material-icons">exit_to_app</i>Logout</a></li>
+    </div>
+  
+  </ul>
+  <main>
+    <app-content></app-content>
+  </main>
+  

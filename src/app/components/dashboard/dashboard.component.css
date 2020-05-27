@@ -1,0 +1,64 @@
+header, main, footer {
+	padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+	header, main, footer {
+		padding-left: 0;
+	}
+}
+nav {
+ 
+  background-color:whitesmoke;  
+  color:grey;
+
+  }
+  
+  .brand-logo {
+    font-weight: 700;
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+    width:auto;
+  }
+   nav a{
+       color:grey !important;
+   }
+  .bran:hover {
+    color:#64b5f6;
+  }
+  .bran{
+   margin-left:30px;
+
+  }
+  .unsub{
+    color: grey;
+}
+  .unsub:hover {
+    color: #fa3939;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  /* .footers{
+margin-top: 1%;
+border-top: 1px solid grey;
+border-bottom: 1px solid grey;
+
+ }
+ .footers:hover {
+     color: red
+ } */
+
+ .background{
+  background: #7474BF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+ }
+
+.sticky-nav{
+  z-index: 1000;
+}
+.colo:hover{
+    color:  rgb(204, 91, 91) !important; 
+}

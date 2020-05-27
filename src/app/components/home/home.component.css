@@ -1,0 +1,31 @@
+.tab a{
+    background-color: white;
+    font-weight: bold;
+    font-size:15px;
+    color: #2196F3;
+}
+
+.tab >.active{
+    background-color: inherit !important;
+}
+
+.auth-component{
+    height: 410px !important;
+}
+.noshadow {
+    box-shadow: none!important;
+    margin-top: 0%!important;
+    
+}
+.pad{
+    padding-top: 10% !important;
+}
+.s{
+    background-image:url('./image1.jpg');
+    background-size:cover;
+    background-repeat:  no-repeat;
+    background-position: center center;
+    background-color:none !important;
+    height:  100vh;
+    
+}
