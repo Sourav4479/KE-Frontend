@@ -15,7 +15,7 @@ npm install --save
 ng serve --open
 
 ```
-5.Navigate to http://localhost:4200/ via browser . You will see the application is running.
+2. Navigate to http://localhost:4200/ via browser . You will see the application is running.
 
 NOTE: Though i have tried to minimize CORS errors but if errors persist then Follow these steps to open chrome in dev mode . Navigate to Chrome Application folder in c >program files(x86)> Google > Application > and type this
 
