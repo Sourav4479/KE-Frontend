@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-const BASE_URL = 'http://18.191.7.4:3000/api/v1/KE/auth';
+const BASE_URL = 'http://localhost:3000/api/v1/KE/auth';
 
 
 @Injectable({
