@@ -14,7 +14,7 @@ export class SocketService {
       "timeout" : 10000,                  //before connect_error and connect_timeout are emitted.
       "transports" : ["websocket"]
   };
-    this.socket = io('http://ec2-18-191-7-4.us-east-2.compute.amazonaws.com:3000',connectionOptions)
+    this.socket = io('http://localhost:3000',connectionOptions)
    }
   On(event):any{
     const OnObservable = new Observable((observer)=>{
